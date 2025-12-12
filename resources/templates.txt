@@ -1,0 +1,241 @@
+<bug>
+[BUG/FIX] (Título do Erro - Onde ocorre + O erro em si)
+
+**Repositório:**
+
+## Resumo do Incidente
+
+**Severidade:** (Crítico / Alto / Médio / Baixo) 
+**Versão/Ambiente afetado:** (ex: v1.2.0 - Produção / Staging) 
+
+## Referências
+- **Design (Figma):** [Link]
+- **Documentação (Swagger/Docs):** [Link]
+
+## Descrição do Problema
+**Comportamento Atual:**
+(O que está acontecendo de errado? Ex: O sistema trava ao clicar em X) 
+
+**Comportamento Esperado:**
+(O que deveria acontecer? Ex: Deveria abrir o modal de confirmação) 
+
+## Passos para Reproduzir (STR)
+1. Logar como usuário [Tipo]
+2. Navegar até a tela [Nome]
+3. Clicar no botão [Ação]
+4. Observar o erro... 
+
+## Evidências
+**Screenshots/Vídeo:** [Link] 
+**Dados de Teste:** (ex: User ID 123, Pedido #999) 
+
+**Logs/Stacktrace:**
+```text
+```
+
+***
+**Atenção: Ao finalizar a implementação, é fundamental a conferência de cada um dos itens abaixo, sinalizando com "[x]" o cumprimento de cada uma das condições. A tarefa somente pode ser dada como finalizada com o preenchimento de todos os campos aplicáveis, pois há relatórios automatizados utilizando a sessão abaixo para acompanhamento de métricas do projeto.**
+***
+
+## Checklist de Execução
+- [ ] Bug corrigido
+- [ ] Logs de erro ajustados/melhorados para facilitar debug futuro
+- [ ] Tratamento de erro com strings de erro padronizadas
+- [ ] Scripts de Migration + Rollback testados (se aplicável)
+- [ ] Testes unitários para validar cenário do Bug criados/atualizados
+- [ ] Cobertura de testes igual ou superior à anterior
+
+## Definition of Done
+- [ ] Code Review aprovado
+- [ ] Testes Unitários/Integração passando
+- [ ] Testes de CI/CD passando
+- [ ] Sem regressões funcionais
+- [ ] Documentação atualizada (Readme/Bdds)
+</bug>
+
+<chore>
+## Contexto
+[CHORE] Título da Tarefa
+**Repositório:**
+
+## Contexto
+(Ex: O certificado expira em 10 dias.)
+
+## Referências
+- **Design (Figma):** [Link]
+- **Documentação (Swagger/Docs):** [Link]
+
+## Ação Necessária
+1. (Passo 1)
+2. (Passo 2)
+
+## Validação
+- [ ] (Critério de verificação, ex: Acessar site via HTTPS e checar data)
+
+***
+**Atenção: Ao finalizar a implementação, é fundamental a conferência de cada um dos itens abaixo, sinalizando com "[x]" o cumprimento de cada uma das condições. A tarefa somente pode ser dada como finalizada com o preenchimento de todos os campos aplicáveis, pois há relatórios automatizados utilizando a sessão abaixo para acompanhamento de métricas do projeto.**
+***
+
+## Checklist de Execução
+- [ ] Chore realizada
+- [ ] Tratamento de erro com strings de erro padronizadas (se aplicável)
+- [ ] Testes unitários criados/atualizados (se aplicável)
+- [ ] Cobertura de testes igual ou superior à anterior
+
+## Definition of Done
+- [ ] Code Review aprovado
+- [ ] Testes Unitários/Integração passando
+- [ ] Testes de CI/CD passando
+- [ ] Sem regressões funcionais
+- [ ] Documentação atualizada (Readme/Bdds)
+</chore>
+
+<debito>
+[DEBT] (Título da Refatoração)
+
+**Repositório:**
+
+## Referências
+- **Design (Figma):** [Link]
+- **Documentação (Swagger/Docs):** [Link]
+
+## Visão Geral
+**Componente/Serviço:**
+
+**Motivação (O "Porquê" para o Negócio):**
+- **Impacto Atual:** (ex: O código atual torna a implementação de novas features 2x mais lenta; Alto risco de segurança.)
+- **Benefício da Correção:** (ex: Redução de custos de infra; Acelerar desenvolvimento futuro.)
+
+## Estratégia Técnica
+**O que será feito:**
+(ex: Desacoplar módulo de Pagamento do módulo de Usuário; Atualizar versão do Framework.)
+
+**Arquitetura Alvo:**
+(ex: Arquitetura limpa com Ports e Adapters, Atomic Design, etc)
+
+**Riscos da Alteração:**
+(ex: Risco de quebrar o fluxo de checkout. Necessário teste de regressão pesado.)
+
+***
+**Atenção: Ao finalizar a implementação, é fundamental a conferência de cada um dos itens abaixo, sinalizando com "[x]" o cumprimento de cada uma das condições. A tarefa somente pode ser dada como finalizada com o preenchimento de todos os campos aplicáveis, pois há relatórios automatizados utilizando a sessão abaixo para acompanhamento de métricas do projeto.**
+***
+
+## Checklist de Execução
+- [ ] Refatoração aplicada
+- [ ] Tratamento de erros com strings padronizadas
+- [ ] Código legado removido (se aplicável)
+- [ ] Scripts de Migration + Rollback testados (se aplicável)
+- [ ] Testes unitários atualizados/criados
+- [ ] Cobertura de testes igual ou superior à anterior
+
+## Critérios de Aceite (Técnicos)
+- [ ] O comportamento funcional do sistema deve permanecer IDÊNTICO (Black box testing)
+- [ ] Métricas de performance melhoraram (se for o foco)
+- [ ] Cobertura de testes > X%
+
+## Definition of Done
+- [ ] Code Review aprovado
+- [ ] Testes Unitários/Integração passando
+- [ ] Testes de CI/CD passando
+- [ ] Sem regressões funcionais
+- [ ] Documentação atualizada (Readme/Bdds)
+</debito>
+
+<design>
+[DESIGN] (Título da Interface ou Fluxo)
+
+## Visão Geral
+**Objetivo do Negócio:**
+(Qual problema essa tela resolve? Ex: Reduzir abandono no carrinho.)
+
+**Público-Alvo (Persona):**
+
+## Escopo da Tarefa
+**Dispositivo:**
+- [ ] Desktop
+- [ ] Mobile
+- [ ] Tablet
+- [ ] Responsivo
+
+**Tipo de Entrega:**
+- [ ] Novo Fluxo
+- [ ] Melhoria Visual
+- [ ] Novo Componente do DS
+
+## Requisitos Funcionais
+1. O usuário deve visualizar...
+2. O usuário deve poder filtrar...
+3. Deve haver um botão de...
+
+## Conteúdo e Dados
+- **Títulos/Textos Chave:**
+- **Campos do Formulário:**
+- **Origem dos dados:**
+
+## Diretrizes Visuais
+- **Design System:** (Padrão atual ou novos componentes?)
+- **Referências:** [Links]
+
+***
+**Atenção: Ao finalizar a implementação, é fundamental a conferência de cada um dos itens abaixo, sinalizando com "[x]" o cumprimento de cada uma das condições. A tarefa somente pode ser dada como finalizada com o preenchimento de todos os campos aplicáveis, pois há relatórios automatizados utilizando a sessão abaixo para acompanhamento de métricas do projeto.**
+***
+
+## Checklist de Entrega (Handoff)
+- [ ] Telas no Figma organizadas por fluxo
+- [ ] Protótipo navegável (se aplicável)
+- [ ] Variações Responsivas (Desktop vs Mobile)
+- [ ] Notas de Acessibilidade (Contraste, ordem de tabulação)
+- [ ] Assets exportáveis prontos para Dev (SVG, PNG)
+
+## Revisão
+- [ ] Revisado em conjunto com PO e aprovado
+</design>
+
+<feature>
+[FEAT] (Título da Tarefa)
+
+**Repositório:**
+
+## Contexto e Objetivo
+**Objetivo:** (Explicação de 1-2 linhas sobre a implementação técnica.)
+**User Story:**
+**Contexto adicional:**
+
+## Arquitetura e Componentes
+- **Tipo de arquitetura:** (ex: Arquitetura Limpa com Ports e Adapters)
+- **Framework de testes:** (ex: XUnit)
+- **Endpoints:** (ex: POST /api/v1/resource)
+- **Tabelas:** (ex: Users, Orders - Migrations necessárias?)
+
+## Referências
+- **Design (Figma):** [Link]
+- **Documentação (Swagger/Docs):** [Link]
+
+## Bloqueios / Pré-requisitos (Apenas exibir essa sessão se houverem bloqueios / pré requisitos)
+- [ ] (inserir bloqueio 1)
+- [ ] (Inserir bloqueio 2)
+
+***
+**Atenção: Ao finalizar a implementação, é fundamental a conferência de cada um dos itens abaixo, sinalizando com "[x]" o cumprimento de cada uma das condições. A tarefa somente pode ser dada como finalizada com o preenchimento de todos os campos aplicáveis, pois há relatórios automatizados utilizando a sessão abaixo para acompanhamento de métricas do projeto.**
+***
+
+## Critérios de Aceite (Negócio)
+- [ ] (Inserir regra de negócio 1)
+- [ ] (Inserir regra de negócio 2)
+
+## Checklist de Desenvolvimento
+- [ ] Lógica implementada com tratamento de erros
+- [ ] Strings de erro padronizadas
+- [ ] Logs de Observabilidade (Info para fluxo, Error para falhas)
+- [ ] Scripts de Migration + Rollback testados (se aplicável)
+- [ ] Testes Unitários/Integração criados/atualizados
+- [ ] Cobertura de testes igual ou superior à anterior
+- [ ] Acessibilidade/Responsividade (Frontend)
+
+## Definition of Done
+- [ ] Build realizada com sucesso
+- [ ] Code Review realizado
+- [ ] Testes Unitários/Integração passando
+- [ ] Testes de CI/CD passando
+- [ ] Documentação atualizada (Readme/Bdds)
+</feature>
